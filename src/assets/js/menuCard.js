@@ -5,7 +5,7 @@ const menu = [
         id: nanoid(),
         name: '香煎雞胸 (蒙特婁、黑胡椒、咖哩、海苔)',
         number: 'odd',
-        img: '/img/舒肥主廚雞胸.jpg',
+        img: '../img/蒙特婁香煎雞胸.jpg',
         price: 99,
         protein: {
             meat: 30,
