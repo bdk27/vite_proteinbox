@@ -1,11 +1,12 @@
 import { nanoid } from "nanoid";
 
+
 const menu = [
     {
         id: nanoid(),
         name: '香煎雞胸 (蒙特婁、黑胡椒、咖哩、海苔)',
         number: 'odd',
-        img: "/img/舒肥主廚雞胸.jpg",
+        img: '/vite_proteinbox/src/assets/img/蒙特婁香煎雞胸.jpg',
         price: 99,
         protein: {
             meat: 30,
@@ -23,7 +24,7 @@ const menu = [
         id: nanoid(),
         name: '舒肥主廚雞胸',
         number: 'even',
-        img: '/img/舒肥主廚雞胸.jpg',
+        img: '/vite_proteinbox/src/assets/img/舒肥主廚雞胸.jpg',
         price: 99,
         protein: {
             meat: 30,
@@ -41,7 +42,7 @@ const menu = [
         id: nanoid(),
         name: '四川麻辣雞胸',
         number: 'odd',
-        img: '/img/四川麻辣雞胸.jpg',
+        img: '/vite_proteinbox/src/assets/img/四川麻辣雞胸.jpg',
         price: 109,
         protein: {
             meat: 30,
@@ -59,7 +60,7 @@ const menu = [
         id: nanoid(),
         name: '低脂梅花泡菜豬',
         number: 'even',
-        img: '/img/低脂梅花泡菜豬.jpg',
+        img: '/vite_proteinbox/src/assets/img/低脂梅花泡菜豬.jpg',
         price: 99,
         protein: {
             meat: 14,
@@ -77,7 +78,7 @@ const menu = [
         id: nanoid(),
         name: '私房滷牛腱',
         number: 'odd',
-        img: '/img/慢燉半筋半肉.jpg',
+        img: '/vite_proteinbox/src/assets/img/慢燉半筋半肉.jpg',
         price: 139,
         protein: {
             meat: 20,
@@ -95,7 +96,7 @@ const menu = [
         id: nanoid(),
         name: '壽喜牛五花',
         number: 'even',
-        img: '/img/壽喜牛五花.jpg',
+        img: '/vite_proteinbox/src/assets/img/壽喜牛五花.jpg',
         price: 139,
         protein: {
             meat: 12,
@@ -113,7 +114,7 @@ const menu = [
         id: nanoid(),
         name: '減鹽味噌烤鱸魚',
         number: 'odd',
-        img: '/img/減鹽味噌烤爐魚.jpg',
+        img: '/vite_proteinbox/src/assets/img/減鹽味噌烤爐魚.jpg',
         price: 129,
         protein: {
             meat: 26,
@@ -131,7 +132,7 @@ const menu = [
         id: nanoid(),
         name: '火烤挪威鯖魚',
         number: 'even',
-        img: '/img/火烤挪威鯖魚.jpg',
+        img: '/vite_proteinbox/src/assets/img/火烤挪威鯖魚.jpg',
         price: 119,
         protein: {
             meat: 17,
@@ -149,7 +150,7 @@ const menu = [
         id: nanoid(),
         name: '五香藥膳嫩雞腿',
         number: 'odd',
-        img: '/img/五香藥膳嫩雞腿.jpg',
+        img: '/vite_proteinbox/src/assets/img/五香藥膳嫩雞腿.jpg',
         price: 89,
         protein: {
             meat: 15,

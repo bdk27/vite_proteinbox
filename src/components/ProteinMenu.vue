@@ -1,6 +1,6 @@
 <script setup>
     import { menu } from '../assets/js/menuCard'
-   
+
 </script>
 
 <template>
