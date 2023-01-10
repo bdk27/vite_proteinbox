@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import requireTransform from 'vite-plugin-require-transform';
+import vitePluginRequire from "vite-plugin-require";
 
 import path from 'path'
 
@@ -9,8 +9,8 @@ export default defineConfig({
   base: '/vite_proteinbox/',
   plugins: [
     vue(),
-    requireTransform.default({
-      fileRegex: /.js$|.vue$/,
+    vitePluginRequire.default({
+      fileRegex:/(.jsx?|.tsx?|.vue)$/
     })
   ],
   resolve: {
